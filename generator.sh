@@ -6,5 +6,5 @@ LIST=(`find . -type d -not -path "./.git/*" -not -path "./.git" -not -path "./.a
 
 export PS4='Select an Option>>  '
 select topic in ${LIST[*]}; do 
-  
+  LIST
 done

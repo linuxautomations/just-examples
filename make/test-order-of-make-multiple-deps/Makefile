@@ -2,7 +2,7 @@
 .SHELL := /usr/bin/bash
 
 one:
-	@git pull &>/dev/null
+	@echo Hello One
 
 two: pull ## Install all Components of Application
 	@sh PROJECT.sh all

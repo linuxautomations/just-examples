@@ -8,4 +8,6 @@ export PS3='Select an Option>>  '
 select topic in ${LIST[*]}; do 
   TOPIC=$topic 
   break 
-done
+done 
+
+echo $TOPIC

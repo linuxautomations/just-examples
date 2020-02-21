@@ -13,4 +13,5 @@ done
 read -p "Enter Sub-Topic: " subtopic
 read -p 'Enter Description: ' description 
 
-mkdir -p $TOPIC
+mkdir -p $TOPIC/$subtopic 
+echo ""

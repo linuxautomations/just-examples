@@ -14,4 +14,5 @@ read -p "Enter Sub-Topic: " subtopic
 read -p 'Enter Description: ' description 
 
 mkdir -p $TOPIC/$subtopic 
-echo "## $description " >
+echo "## $description " >$TOPIC/$subtopic/README.md 
+

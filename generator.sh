@@ -10,4 +10,4 @@ select topic in ${LIST[*]}; do
   break 
 done 
 
-echo $TOPIC
+read -p "Enter "

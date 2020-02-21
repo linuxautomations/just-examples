@@ -10,4 +10,4 @@ select topic in ${LIST[*]}; do
   break 
 done 
 
-read -p "Enter "
+read -p "Enter Sub-Topic: " subtopic

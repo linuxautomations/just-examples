@@ -5,7 +5,7 @@ one:
 	@echo Hello One
 
 two: 
-	@
+	@echo Hello Two
 
-debug:
+all:
 	@sh -x PROJECT.sh all

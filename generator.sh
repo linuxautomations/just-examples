@@ -4,4 +4,5 @@
 
 LIST=(`find . -type d -not -path "./.git/*" -not -path "./.git" -not -path "./.autogit/*" -not -path "./.autogit" | grep -v '^\.$' | sed -e 's|./||'`)
 
-export PS4='Select an Option>  '
+export PS4='Select an Option>>  '
+select 

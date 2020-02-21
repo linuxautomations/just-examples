@@ -7,5 +7,5 @@ one:
 two: 
 	@echo Hello Two
 
-all:
-	@sh -x PROJECT.sh all
+all: one two
+	

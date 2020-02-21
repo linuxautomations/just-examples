@@ -11,3 +11,5 @@ select topic in ${LIST[*]}; do
 done 
 
 read -p "Enter Sub-Topic: " subtopic
+read -p 'Enter Description: ' description 
+

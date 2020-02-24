@@ -10,3 +10,4 @@ We can run this to run a playbook.
 
 ```
 $ echo localhost >/tmp/hosts
+$ ansible-pull -U 

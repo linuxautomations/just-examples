@@ -6,4 +6,4 @@ Ansible Pull will pull a git repo and run the playbook locally on that server.
 $ sudo yum install ansible git -y 
 ```
 
-We can 
+We can run this to 

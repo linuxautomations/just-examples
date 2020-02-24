@@ -1,3 +1,7 @@
 ---
 - name: Demo on Ansible Pull 
-  
+  hosts: all 
+  tasks:
+    - name: Print Hello 
+      debug:
+        msg: Hello, 

@@ -10,4 +10,5 @@ We can run this to run a playbook.
 
 ```
 $ echo localhost >/tmp/hosts
-$ ansible-pull -i /tmp/hosts -U https://github.com/linuxautomations/just-examples.git ansible/pull-simple-demo/
+$ ansible-pull -i /tmp/hosts -U https://github.com/linuxautomations/just-examples.git ansible/pull-simple-demo/sample.yml
+```

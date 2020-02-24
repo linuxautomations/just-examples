@@ -1,3 +1,3 @@
 # just-examples
 
-## All Just examples
+## All examples for the problems.

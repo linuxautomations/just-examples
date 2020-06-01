@@ -1,0 +1,12 @@
+- name: Check vars
+  hosts: all
+  vars:
+    src: /etc/hosts
+    dest: /tmp/hosts
+    state: present
+  tasks:
+    - name: Copy Hosts 
+      copy:
+        src: "{{src}}"
+        dest: "{{dest}}"
+        state: "{{state}}"

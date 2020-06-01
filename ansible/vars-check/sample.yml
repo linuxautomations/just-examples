@@ -1,5 +1,5 @@
 - name: Check vars
-  hosts: all
+  hosts: localhost
   vars:
     src: /etc/hosts
     dest: /tmp/hosts

@@ -3,10 +3,10 @@
   vars:
     src: /etc/hosts
     dest: /tmp/hosts
-    state: present
+    mode: "0660"
   tasks:
     - name: Copy Hosts 
       copy:
         src: "{{src}}"
         dest: "{{dest}}"
-        state: "{{state}}"
+        mode: "{{mode}}"

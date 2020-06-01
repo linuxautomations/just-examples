@@ -6,5 +6,5 @@
   tasks:
     - name: Copy Hosts 
       file:
-        path: "{{src}}"
+        path: "{{path}}"
         state: "{{state}}"

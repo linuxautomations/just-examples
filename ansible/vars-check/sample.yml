@@ -1,12 +1,10 @@
 - name: Check vars
   hosts: localhost
   vars:
-    src: /etc/hosts
-    dest: /tmp/hosts
-    mode: "0660"
+    path: /tmp/new-hosts
+    state: "present"
   tasks:
     - name: Copy Hosts 
-      copy:
-        src: "{{src}}"
-        dest: "{{dest}}"
-        mode: "{{mode}}"
+      file:
+        path: "{{src}}"
+        state: "{{state}}"

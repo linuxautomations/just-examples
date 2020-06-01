@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     path: /tmp/new-hosts
-    state: "present"
+    state: "touch"
   tasks:
     - name: Copy Hosts 
       file:
